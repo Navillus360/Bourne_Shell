@@ -26,3 +26,5 @@ PromptRetry () {
     PromptRetry
   fi
 }
+
+NumberPrompt
