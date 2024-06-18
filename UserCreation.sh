@@ -37,6 +37,7 @@ DeleteUser () {
  read -p "You are about to delete user: $userName. \nConfirm? [Y/n] " confirmation
  if [[ $confirmation == "Y" || $confirmation == "y" && "$userName" != whoami ]];then 
   sudo userdel $userName
+  echo "User deleted."
  elif [[ $confirmation == "Y" || $confirmation == "y" && "$userName" == whoami ]];then 
   echo "You cannot delete your own account!"
   Prompt
