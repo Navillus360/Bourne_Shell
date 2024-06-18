@@ -13,6 +13,10 @@ Prompt () {
   CreateDirectory
  elif [[ $createFolder == "N" || $createFolder == "n" ]]; then
   SetPermissions
+ else
+  echo "Please choose an option"
+  Prompt
+ fi
 }
 
 CreateDirectory () {
@@ -45,6 +49,10 @@ SetPermissions () {
  elif [[ $createFolder == "N" || $createFolder == "n" ]]; then
   chmod +x "$fileName$fileExtension"
   CreateFile
+ else
+  echo "Please choose an option"
+  SetPermissions
+ fi
 }
 
 Prompt
