@@ -8,6 +8,6 @@ Once the rest of the prompt is finished, the file will be found within the creat
 **(Creating the file)**
 Compared to the folder creation, the user can set permissions for the file to be executed by the creator or other users on the system, allowing for a readily available file to execute in the terminal.
 
-                                                                    **Note!**
+**Note!**
 If the chosen directory already exists, the file will continue to be created.
 Make sure the naming of the parent folders that the directory will be created within is correct, as this can cause issues and create different variations.
